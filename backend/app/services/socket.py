@@ -56,7 +56,7 @@ async def process_bedrock_response(response):
     return completion
 
 
-@router.websocket("/ws/bedrock-agent")
+@router.websocket("/ws/bedrock-chat")
 async def websocket_bedrock_agent(websocket: WebSocket):
     await websocket.accept()
     try:

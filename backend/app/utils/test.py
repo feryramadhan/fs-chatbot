@@ -3,7 +3,7 @@ import aiohttp
 import json
 
 async def connect():
-    uri = "ws://127.0.0.1:8000/ws/bedrock-agent"
+    uri = "ws://127.0.0.1:8000/ws/bedrock-chat"
 
     headers = {
         "access_token": "test-token123"
